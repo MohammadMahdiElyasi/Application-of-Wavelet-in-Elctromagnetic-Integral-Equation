@@ -60,4 +60,7 @@ end
 
 ros(n + 1) = ros(1);
 x(n + 1) = pi / 180 * (i - n / 2);
-
+%%% Plotting section
+plot(x, ros, 'LineWidth', 2);
+ylabel('Charge density');
+xlabel('\theta(rad)');
