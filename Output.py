@@ -1,4 +1,10 @@
 # %%
+# Application of wavelet in IEFE problems
+# Advanced Engineering Mathematics
+# First project
+# Mohammad Mahdi Elyasi
+# 403123091
+# Prof. Moradi
 import numpy as np
 import matplotlib.pyplot as plt
 import pywt
@@ -15,10 +21,10 @@ d = 10
 wavelet = 'db4'
 level = int(np.log2(n))  # Level = 9 for n=512
 
-# Pre-computations (from original code)
-I = 4 * (np.log(2) * np.sin(h/2) + 2 * (np.sin(h/2) * np.log(np.sin(h/2)) - np.sin(h/2)))
-B = a * np.log(a) - a/2 * np.log(2 * a**2)
-A_param = 2 * h * B  # Renamed from A to avoid conflict with approximation
+# Pre-computations
+I = 4 * (np.log(2) * np.sin(h / 2) + 2 * (np.sin(h / 2) * np.log(np.sin(h / 2)) - np.sin(h / 2)))
+B = a * np.log(a) - a / 2 * np.log(2 * a**2)
+A = 2 * h * B
 
 # Initialize arrays
 teta = np.zeros(n)
@@ -30,23 +36,42 @@ mat = np.zeros((n, n))
 for i in range(n):
     teta[i] = i * h
     f[i] = ro0 * (np.log(d) - 0.5 * np.log(a**2 + d**2 - 2 * a * d * np.cos(teta[i])))
-    
+
     if i == 0:
-        k[i] = A_param - a/2 * I
+        k[i] = A - a / 2 * I
     else:
-        k[i] = B - a/2 * (np.log(2 * np.sin(teta[i]/2)))
-        if i == 1 or i == n-1:
-            k[i] *= h/3
+        k[i] = B - a / 2 * (np.log(2 * np.sin(teta[i] / 2)))
+        if i == 1 or i == n - 1:
+            k[i] *= h / 3
         else:
-            k[i] *= 2*h/3 * (1 + i%2)
+            k[i] *= 2 * h / 3 * (1 + i % 2)
 
 # Construct the matrix mat
 for i in range(n):
     for j in range(n):
         mat[i, j] = k[(j - i + n) % n]
 
-# --- Wavelet-based solution ---
-# Transform and solve system
+# Solve the system in the physical domain (MATLAB-like approach)
+f_physical = -f
+ros_physical = np.linalg.solve(mat, f_physical)
+
+# Normalize and correct the solution
+su_physical = np.sum(ros_physical)
+ros_physical = -su_physical / n + ros_physical + ro1 / (2 * np.pi * a)
+
+# Prepare for plotting
+x = np.pi / 180 * (np.arange(1, n + 2) - n / 2 - 1)
+ros_physical = np.append(ros_physical, ros_physical[0])
+
+# Plot only the MATLAB-like solution
+plt.plot(x, ros_physical, linewidth=2, label='MATLAB-like Solution')
+plt.ylabel('Charge density')
+plt.xlabel('theta (rad)')
+plt.legend()
+plt.title('MATLAB-like Solution')
+plt.grid(True)
+plt.show()
+
 coeffs_f = pywt.wavedec(f, wavelet, level=level)
 mat_wav = lil_matrix((n, n))
 for i in range(n):
@@ -130,5 +155,6 @@ for idx, D_i in enumerate(D_components):
 plt.tight_layout()
 plt.suptitle('Wavelet Decomposition Components', y=1.02)
 plt.show()
+
 
 
