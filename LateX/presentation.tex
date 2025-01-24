@@ -2,9 +2,11 @@
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
-\usepackage{hyperref}
 \usepackage{fancyhdr} % For custom headers/footers
 \usepackage{titlesec} % For section formatting
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{xcolor}
 
 
 
@@ -70,7 +72,7 @@ Electromagnetics is the branch of physics and engineering that studies the behav
 \begin{enumerate}
     \item \textbf{Analytical Complexity:}
           \begin{itemize}
-              \item Exact solutions are rare and often limited to simple geometries and boundary conditions.
+              \item Exact solutions are rare and often limited to simple geometries and boundary conditions\cite{AEM}.
               \item Real-world problems involve complex geometries, inhomogeneous materials, and mixed boundary conditions.
           \end{itemize}
     \item \textbf{Numerical Methods:}
@@ -143,7 +145,7 @@ Wavelet transforms address computational challenges in integral equations by off
 \section{Theory}
 
 \subsection{Explanation of Wavelet Transform}
-Wavelet transform is a mathematical tool that decomposes a signal into components localized in both time (or space) and frequency, using functions called wavelets. These wavelets are small oscillatory functions with finite energy and good localization properties.
+Wavelet transform is a mathematical tool that decomposes a signal into components localized in both time (or space) and frequency, using functions called wavelets\cite{wavelet}. These wavelets are small oscillatory functions with finite energy and good localization properties.
 
 \subsubsection{Key Concepts}
 \begin{itemize}
@@ -383,7 +385,7 @@ In this project, we explored the application of wavelet transforms in solving th
 
 Wavelets provide sparse representations and multi-resolution analysis capabilities, which are particularly effective in reducing computational complexity and memory requirements. Through the discretization of EFIE and its transformation into the wavelet domain, we showed how the kernel matrix can be sparsified, enabling more efficient computation while maintaining accuracy. The multi-resolution analysis further allowed for a detailed breakdown of the solution, offering insights into the contributions of different frequency components.
 
-The results underline the potential of wavelet transforms in solving large-scale electromagnetic problems, especially in cases involving complex geometries, open boundaries, or multi-scale features. The following key results and observations were derived from the project:
+The results underline the potential of wavelet transforms in solving large-scale electromagnetic problems, especially in cases involving complex geometries, open boundaries, or multi-scale features. The following key results and observations were derived from the project\cite{Code}:
 
 \begin{itemize}
     \item \textbf{Sparse Kernel Matrix:} The wavelet-based transformation significantly reduced the density of the kernel matrix, leading to lower memory usage and faster computation.
@@ -432,10 +434,8 @@ At the end, we present the following graphs that showcase the results of the pro
 \begin{thebibliography}{99}
     \bibitem{AEM} G.Moradi, \textit{Advanced Engineering Mathematics},AmirKabir University Of Technology, 2012 .
     \bibitem{wavelet} I. Daubechies, \textit{Ten Lectures on Wavelets}, Society for Industrial and Applied Mathematics, 1992.
-    \bibitem{efie} R. F. Harrington, \textit{Field Computation by Moment Methods}, Macmillan, 1968.
-    \bibitem{maxwell} J. D. Jackson, \textit{Classical Electrodynamics}, 3rd ed., Wiley, 1998.
-    \bibitem{applications} C. A. Balanis, \textit{Antenna Theory: Analysis and Design}, Wiley, 2005.
-    \bibitem{wavelet_efficiency} S. G. Mallat, \textit{A Wavelet Tour of Signal Processing}, Academic Press, 1999.
+    \bibitem{Code} Github link,\textit{Application of Wavelet on EFIE} at \url{https://github.com/MohammadMahdiElyasi/Application-of-Wavelet-on-EFIE}.
+
 \end{thebibliography}
 
 \end{document}
