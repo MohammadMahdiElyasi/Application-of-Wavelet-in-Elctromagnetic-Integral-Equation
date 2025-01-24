@@ -1,7 +1,7 @@
 PWD c:\Users\ASUS\Desktop\Application of Wavelet in Integral Equation in Elctromagnetic\LateX
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ASUS\Desktop\Application of Wavelet in Integral Equation in Elctromagnetic\LateX\presentation.tex
-OUTPUT presentation.log
+INPUT c:\Users\ASUS\Desktop\Application of Wavelet in Integral Equation in Elctromagnetic\LateX\Report.tex
+OUTPUT Report.log
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -118,10 +118,10 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.l
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\presentation.aux
-INPUT .\presentation.aux
-INPUT presentation.aux
-OUTPUT presentation.aux
+INPUT .\Report.aux
+INPUT .\Report.aux
+INPUT Report.aux
+OUTPUT Report.aux
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -130,14 +130,14 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\presentation.out
-INPUT .\presentation.out
-INPUT presentation.out
-INPUT presentation.out
-OUTPUT presentation.pdf
-INPUT .\presentation.out
-INPUT .\presentation.out
-OUTPUT presentation.out
+INPUT .\Report.out
+INPUT .\Report.out
+INPUT Report.out
+INPUT Report.out
+OUTPUT Report.pdf
+INPUT .\Report.out
+INPUT .\Report.out
+OUTPUT Report.out
 INPUT .\amirkabir.png
 INPUT .\amirkabir.png
 INPUT .\amirkabir.png
@@ -152,9 +152,9 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\presentation.toc
-INPUT .\presentation.toc
-INPUT presentation.toc
+INPUT .\Report.toc
+INPUT .\Report.toc
+INPUT Report.toc
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -179,7 +179,7 @@ INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT presentation.toc
+OUTPUT Report.toc
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
@@ -219,9 +219,9 @@ INPUT .\3.png
 INPUT .\3.png
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT presentation.aux
-INPUT .\presentation.out
-INPUT .\presentation.out
+INPUT Report.aux
+INPUT .\Report.out
+INPUT .\Report.out
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\ASUS\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\ASUS\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  24 JAN 2025 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  24 JAN 2025 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/presentation.tex"
-(c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/presentation.tex
+**"c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex"
+(c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -290,8 +290,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count288
 \l__pdf_internal_box=\box54
-) (presentation.aux)
-\openout1 = `presentation.aux'.
+) (Report.aux)
+\openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -366,9 +366,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 18.
- (presentation.out) (presentation.out)
+ (Report.out) (Report.out)
 \@outlinefile=\write3
-\openout3 = `presentation.out'.
+\openout3 = `Report.out'.
 
 <amirkabir.png, id=127, 238.8925pt x 212.795pt>
 File: amirkabir.png Graphic file (type png)
@@ -377,7 +377,7 @@ Package pdftex.def Info: amirkabir.png  used on input line 23.
 (pdftex.def)             Requested size: 135.89174pt x 121.04437pt.
  [1
 
-{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./amirkabir.png>] (presentation.toc
+{C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./amirkabir.png>] (Report.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -387,7 +387,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
-\openout4 = `presentation.toc'.
+\openout4 = `Report.toc'.
 
  [2] [3]
 Overfull \hbox (0.76901pt too wide) in paragraph at lines 89--90
@@ -440,24 +440,24 @@ Overfull \hbox (59.09872pt too wide) in paragraph at lines 437--438
 
 [16
 
-] (presentation.aux)
+] (Report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `presentation.out' has not changed.
+Package rerunfilecheck Info: File `Report.out' has not changed.
 (rerunfilecheck)             Checksum: D7E63A083E193F450DCF2783D8FB3574;5886.
  ) 
 Here is how much of TeX's memory you used:
  11357 strings out of 474485
- 174757 string characters out of 5744206
+ 174607 string characters out of 5744206
  1937542 words of memory out of 5000000
  33414 multiletter control sequences out of 15000+600000
  568153 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,670b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,664b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ASUS\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (16 pages, 451233 bytes).
+Output written on Report.pdf (16 pages, 451233 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  80 named destinations out of 1000 (max. 500000)
