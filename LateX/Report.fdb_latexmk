@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1737723291.29002 "c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex" "Report.pdf" "Report" 1737723292.8585 0
+["pdflatex"] 1737979182.17067 "c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex" "Report.pdf" "Report" 1737979183.89038 0
   "1.jpg" 1737715713 51644 437d926a3872e04d00f9cbace174cd01 ""
   "2.jpg" 1737715731 72271 b16fddb3b8951827f0addb954de88a90 ""
   "3.png" 1737715750 91589 e487555ab40453619f0c43dea277d67d ""
-  "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737721380 81088 29d6fa367ac022d1b69251d68c0742e6 ""
+  "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737979047 81088 29d6fa367ac022d1b69251d68c0742e6 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1737711116 14064 4adac69d6d2a22cb89f070c9a690bde3 ""
   "C:/Users/ASUS/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737649430 24224615 fc395eabe8dc060b4c1388ba50acca2c ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
@@ -106,13 +106,13 @@
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ASUS/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Report.aux" 1737723292 5025 febb65e311c983604985248b59b37b3a "pdflatex"
-  "Report.out" 1737723292 5886 d7e63a083e193f450dcf2783d8fb3574 "pdflatex"
-  "Report.tex" 1737723290 21577 3954e76de3d1b56cf86e0bbb6bef368d ""
-  "Report.toc" 1737723292 2893 49e91870bb70ab9e9cb7138e5ad2a896 "pdflatex"
+  "Report.aux" 1737979183 5025 febb65e311c983604985248b59b37b3a "pdflatex"
+  "Report.out" 1737979183 5886 d7e63a083e193f450dcf2783d8fb3574 "pdflatex"
+  "Report.tex" 1737979181 21577 3954e76de3d1b56cf86e0bbb6bef368d ""
+  "Report.toc" 1737979183 2893 49e91870bb70ab9e9cb7138e5ad2a896 "pdflatex"
   "Tree graph.jpg" 1737645505 28005 4bb2951471f2c731f8f75eeba53fd894 ""
   "amirkabir.png" 1737714252 7392 a544baf3632166a6cbaf5ae6f625bdd1 ""
-  "c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex" 1737723290 21577 3954e76de3d1b56cf86e0bbb6bef368d ""
+  "c:/Users/ASUS/Desktop/Application of Wavelet in Integral Equation in Elctromagnetic/LateX/Report.tex" 1737979181 21577 3954e76de3d1b56cf86e0bbb6bef368d ""
   (generated)
   "Report.aux"
   "Report.log"
