@@ -1,7 +1,17 @@
 \beamer@sectionintoc {1}{Brief Overview}{3}{0}{1}
-\beamer@sectionintoc {2}{Wavelet's Overview}{4}{0}{2}
-\beamer@sectionintoc {3}{Relation between IE and Wavelet}{6}{0}{3}
-\beamer@sectionintoc {4}{Applications}{7}{0}{4}
-\beamer@sectionintoc {5}{Results}{8}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{9}{0}{6}
-\beamer@sectionintoc {7}{References}{10}{0}{7}
+\beamer@subsectionintoc {1}{1}{Importance of Integral Equations}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivation of Using Wavelet}{5}{0}{1}
+\beamer@sectionintoc {2}{Wavelet's Overview}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Wavelet Basis}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Types of Wavelets}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Advantages of Wavelet}{8}{0}{2}
+\beamer@sectionintoc {3}{Relation between IE and Wavelet}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Types of Integral Equations}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Challenges with Traditional Methods}{10}{0}{3}
+\beamer@subsectionintoc {3}{3}{Why Wavelet Help}{11}{0}{3}
+\beamer@sectionintoc {4}{Applications}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mathematical Foundation}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Solved Case}{13}{0}{4}
+\beamer@sectionintoc {5}{Results}{14}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{16}{0}{6}
+\beamer@sectionintoc {7}{References}{17}{0}{7}

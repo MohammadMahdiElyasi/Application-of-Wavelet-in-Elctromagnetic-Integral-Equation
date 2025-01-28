@@ -45,85 +45,205 @@
 \end{frame}
 
 % Table of Contents Slide
-\begin{frame}{Table of Contents}
+\begin{frame}{Outline}
     \tableofcontents
 \end{frame}
 
 % Section 1: Brief Overview
 \section{Brief Overview}
 \begin{frame}{Brief Overview}
-    \textbf{Purpose:} Why are wavelets significant in solving electromagnetic integral equations?
     \begin{itemize}
+        \vspace*{-\baselineskip}
         \item Basics of wavelets.
         \item Overview of electromagnetic integral equations.
         \item Applications and results.
     \end{itemize}
 \end{frame}
 
-% Section 2: Background
-\section{Wavelet's Overview}
-\begin{frame}{Wavelet's Overview}
+\subsection{Importance of Integral Equations}
+\begin{frame}{Importance of Integral Equations}
     \begin{itemize}
-        \item Definition of wavelets.
-        \item Key properties: localization in time and frequency, multi-resolution analysis.
+        \item Provide a mathematical framework for solving electromagnetic problems.
+        \item Convert differential equations into a solvable integral form.
+        \item Enable numerical solutions for complex geometries and boundary conditions.
+        \[
+              f(x) = \lambda \int_a^b K(x, t)\phi(t) \,dt + g(x)
+        \]
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Electromagnetic Integral Equations}
+\subsection{Motivation of Using Wavelet}
+\begin{frame}{Motivation of Using Wavelet}
     \begin{itemize}
-        \item Basic form and significance.
-        \item Challenges in solving them, e.g., computational complexity.
+        \item Efficient representation of functions and signals.
+        \item Localized analysis in both time and frequency domains.
+        \item Reduction in computational complexity for solving integral equations.
+        
     \end{itemize}
-    \textbf{Tip:} Use diagrams to explain abstract concepts.
+\end{frame}
+
+% Section 2: Wavelet's Overview
+\section{Wavelet's Overview}
+\subsection{Wavelet Basis}
+\begin{frame}{Wavelet Basis}
+    \begin{itemize}
+        \item Wavelet basis functions provide localized representations of signals.
+        \item Constructed through dilation and translation of a mother wavelet.
+        \item Enable sparse representation of complex signals.
+        \[
+             \psi_{j,k}(x) = 2^{j/2} \psi(2^j x - k), \, k \in \mathbb{Z}
+        \]
+    \end{itemize}
+\end{frame}
+
+\subsection{Types of Wavelets}
+\begin{frame}{Types of Wavelets}
+    \begin{itemize}
+        \item Haar wavelets: Simplest wavelets with step-like functions.
+        \item Daubechies wavelets: Compactly supported wavelets with various smoothness.
+        \item Morlet wavelets: Used for time-frequency analysis.
+        \vfill % Push the image to the bottom
+        \centering
+        \includegraphics[width=0.8\textwidth]{wavelet.png} % Replace with your image file
+        \\[0.2cm] % Add vertical spacing between image and caption
+        {\small \textbf Different Wavelets.} % Caption text
+        
+    \end{itemize}
+\end{frame}
+
+\subsection{Advantages of Wavelet}
+\begin{frame}{Advantages of Wavelet}
+    \begin{itemize}
+        \item Multi-resolution analysis for efficient signal representation.
+        \item Localized analysis in time and frequency domains.
+        \item Reduced computational complexity for large-scale problems.
+    \end{itemize}
 \end{frame}
 
 % Section 3: Relation between IE and Wavelet
 \section{Relation between IE and Wavelet}
-\begin{frame}{Relation between IE and Wavelet}
-    \textbf{How wavelets are applied to electromagnetic integral equations:}
+\subsection{Types of Integral Equations}
+\begin{frame}{Types of Integral Equations}
     \begin{itemize}
-        \item Why wavelets are suitable for these equations.
-        \item Highlight the steps or algorithm involved.
+        \item Fredholm integral equations: Defined over a fixed range.
+        \item Volterra integral equations: Defined over a variable range.
+        \item Boundary integral equations: Commonly used in electromagnetic problems.
+        \centering
+        \[
+              f(x) = \int_a^x K(x, t)\phi(t) \,dt + g(x)
+        \]
+        \\[0.2cm]
+        {\small \textbf Volterra IE}
+        \[
+              f(x) = \lambda \int_a^b K(x, t)\phi(t) \,dt + g(x)
+        \]
+        \\[0.2cm]
+        {\small \textbf Fredholm IE}
     \end{itemize}
-    \textbf{Equations:} Show key equations sparingly, explaining the meaning of each term.
+\end{frame}
+
+\subsection{Challenges with Traditional Methods}
+\begin{frame}{Challenges with Traditional Methods}
+    \begin{itemize}
+        \item High computational cost for large-scale problems.
+        \item Poor convergence for complex geometries.
+        \item Difficulty in handling multi-scale behavior.
+    \end{itemize}
+\end{frame}
+
+\subsection{Why Wavelet Help}
+\begin{frame}{Why Wavelet Help}
+    \begin{itemize}
+        \item Provide sparse representations of integral operators.
+        \item Reduce computational complexity with efficient algorithms.
+        \item Handle multi-scale behavior effectively.
+        \vfil
+        \centering
+        \includegraphics[width=0.8\textwidth]{Example_Sparse_Matrix.png} % Replace with your image file
+        \\[0.2cm] % Add vertical spacing between image and caption
+        {\small \textbf Example Sparse Matrix} % Caption text
+    \end{itemize}
 \end{frame}
 
 % Section 4: Applications
 \section{Applications}
-\begin{frame}{Applications}
-    \textbf{Real-world examples:}
+\subsection{Mathematical Foundation}
+\begin{frame}{Mathematical Foundation}
     \begin{itemize}
-        \item Antenna design.
-        \item Signal propagation.
+        \item Underlying mathematical principles of wavelet theory.
+        \item Connection between wavelet transforms and integral equations.
+        \item Basis for developing efficient computational algorithms.
+        \[
+              \sum_{j=0}^{n-1} k(\theta_i - \theta_j) \rho(\theta_j) w_j = f(\theta_i), \quad i = 0, 1, \dots, n-1.
+        \]
+        \[
+                \mathbf{K} \boldsymbol{\rho} = \mathbf{f},
+        \]
     \end{itemize}
-    \textbf{Broader impact:} Potential applications in acoustics and signal processing.
+\end{frame}
+
+\subsection{Solved Case}
+\begin{frame}{Solved Case}
+    \begin{itemize}
+        \item Case study of wavelet application in a real-world problem.
+        \item Comparison with traditional methods.
+        \item Demonstration of improved efficiency and accuracy.
+        \vfil
+        \centering
+        \includegraphics[width=0.8\textwidth]{Case.jpg} % Replace with your image file
+        \\[0.1cm] % Add vertical spacing between image and caption
+        {\small \textbf Case Study} % Caption text
+    \end{itemize}
 \end{frame}
 
 % Section 5: Results
 \section{Results}
 \begin{frame}{Results}
-    \begin{itemize}
-        \item Computational resource requirements.
-        \item Specific cases where wavelets are less effective.
-    \end{itemize}
-    \textbf{Future Work:} Discuss areas for improvement or future research.
+    \centering
+    \begin{tabular}{cc}
+        \includegraphics[width=0.45\textwidth]{1.jpg} & 
+        \includegraphics[width=0.45\textwidth]{2.jpg} \\
+        {\scriptsize MATLAB-like Solution} & {\scriptsize Wavelet-based Charge Density Solution} \\
+        
+    \end{tabular}
+    
+\end{frame}
+
+\begin{frame}{Plots}
+    \begin{columns}[T]
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{3.png} \\[0.2cm] % Replace with your image file
+        {\scriptsize Detailed and Approximation} % Optional: Add caption
+        \column{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, height=0.7\textheight]{Tree graph.jpg} \\[0.2cm] % Replace with your image file
+        {\scriptsize Tree Graph} % Optional: Add caption
+        
+    \end{columns}
+
 \end{frame}
 
 % Section 6: Conclusion
 \section{Conclusion}
 \begin{frame}{Conclusion}
     \begin{itemize}
+        \vspace*{-\baselineskip}
         \item Benefits of wavelets for electromagnetic integral equations.
-        \item Main results of your study.
+        \item Wavelet or other methods.
     \end{itemize}
-    \textbf{Ending Note:} Vision for future work and practical implications of findings.
 \end{frame}
 
 % Section 7: References
 \section{References}
 \begin{frame}{References}
     \begin{itemize}
-        \item Acknowledge your professor, university, and anyone else who contributed.
+        \item [1] G.Moradi, Advanced Engineering Mathematics,AmirKabir University Of Technology,
+        2012 .
+        \item [2] I. Daubechies, Ten Lectures on Wavelets, Society for Industrial and Applied Math
+       ematics, 1992.
+        \item [3] Github link,Application of Wavelet on EFIE at https://github.com/
+        MohammadMahdiElyasi/Application-of-Wavelet-in-Elctromagnetic-Integral-Equation.
     \end{itemize}
 \end{frame}
 

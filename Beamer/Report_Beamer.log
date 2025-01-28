@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  28 JAN 2025 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  28 JAN 2025 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -681,7 +681,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (Report_Beamer.nav)
-<amirkabir.png, id=42, 238.8925pt x 212.795pt>
+<amirkabir.png, id=82, 238.8925pt x 212.795pt>
 File: amirkabir.png Graphic file (type png)
 <use amirkabir.png>
 Package pdftex.def Info: amirkabir.png  used on input line 45.
@@ -692,26 +692,103 @@ Package pdftex.def Info: amirkabir.png  used on input line 45.
 
 ] [3
 
-] [4
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 73.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+) [4
 
 ] [5
 
 ] [6
 
-] [7
+]
+<wavelet.png, id=289, 465.99094pt x 252.945pt>
+File: wavelet.png Graphic file (type png)
+<use wavelet.png>
+Package pdftex.def Info: wavelet.png  used on input line 112.
+(pdftex.def)             Requested size: 273.83728pt x 148.64572pt.
+ [7
 
-] [8
+ <./wavelet.png>] [8
 
 ] [9
 
 ] [10
 
 ]
+<Example_Sparse_Matrix.png, id=398, 712.6625pt x 351.3125pt>
+File: Example_Sparse_Matrix.png Graphic file (type png)
+<use Example_Sparse_Matrix.png>
+Package pdftex.def Info: Example_Sparse_Matrix.png  used on input line 166.
+(pdftex.def)             Requested size: 273.83728pt x 134.99037pt.
+ [11
+
+ <./Example_Sparse_Matrix.png>]
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 183.
+LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 183.
+ [12
+
+]
+<Case.jpg, id=454, 651.43375pt x 404.51125pt>
+File: Case.jpg Graphic file (type jpg)
+<use Case.jpg>
+Package pdftex.def Info: Case.jpg  used on input line 197.
+(pdftex.def)             Requested size: 273.83728pt x 170.04169pt.
+
+Overfull \vbox (3.29018pt too high) detected at line 197
+ []
+
+[13
+
+ <./Case.jpg>]
+<1.jpg, id=482, 443.256pt x 343.88475pt>
+File: 1.jpg Graphic file (type jpg)
+<use 1.jpg>
+Package pdftex.def Info: 1.jpg  used on input line 210.
+(pdftex.def)             Requested size: 154.03183pt x 119.50092pt.
+<2.jpg, id=483, 657.05475pt x 409.53pt>
+File: 2.jpg Graphic file (type jpg)
+<use 2.jpg>
+Package pdftex.def Info: 2.jpg  used on input line 210.
+(pdftex.def)             Requested size: 154.03183pt x 96.00209pt.
+ [14
+
+ <./1.jpg> <./2.jpg>]
+<3.png, id=511, 1004.553pt x 740.7675pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 225.
+(pdftex.def)             Requested size: 171.14764pt x 126.20007pt.
+<Tree graph.jpg, id=512, 268.6035pt x 399.29175pt>
+File: Tree graph.jpg Graphic file (type jpg)
+<use Tree graph.jpg>
+Package pdftex.def Info: Tree graph.jpg  used on input line 225.
+(pdftex.def)             Requested size: 171.15152pt x 182.33603pt.
+ [15
+
+ <./3.png> <./Tree graph.jpg>] [16
+
+] [17
+
+]
 File: amirkabir.png Graphic file (type png)
 <use amirkabir.png>
-Package pdftex.def Info: amirkabir.png  used on input line 136.
+Package pdftex.def Info: amirkabir.png  used on input line 256.
 (pdftex.def)             Requested size: 68.45801pt x 60.9784pt.
- [11
+ [18
 
 ]
 \tf@nav=\write6
@@ -729,20 +806,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Report_Beamer.out' has not changed.
-(rerunfilecheck)             Checksum: 366D1FE31F1620BA0818EF7727A204FD;829.
+(rerunfilecheck)             Checksum: 3F1FDB5DA5B05E5D2A1E38BBEF9DC847;2584.
  ) 
 Here is how much of TeX's memory you used:
- 21561 strings out of 474485
- 422652 string characters out of 5744206
- 1939542 words of memory out of 5000000
- 43382 multiletter control sequences out of 15000+600000
- 560469 words of font info for 44 fonts, out of 8000000 for 9000
+ 21820 strings out of 474485
+ 427721 string characters out of 5744206
+ 1943542 words of memory out of 5000000
+ 43588 multiletter control sequences out of 15000+600000
+ 570598 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,569b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on Report_Beamer.pdf (11 pages, 134209 bytes).
+<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Report_Beamer.pdf (18 pages, 647166 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 685 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
