@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  29 JAN 2025 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.23)  29 JAN 2025 10:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,24 +728,24 @@ Package pdftex.def Info: wavelet.png  used on input line 112.
 <Example_Sparse_Matrix.png, id=398, 712.6625pt x 351.3125pt>
 File: Example_Sparse_Matrix.png Graphic file (type png)
 <use Example_Sparse_Matrix.png>
-Package pdftex.def Info: Example_Sparse_Matrix.png  used on input line 168.
+Package pdftex.def Info: Example_Sparse_Matrix.png  used on input line 167.
 (pdftex.def)             Requested size: 273.83728pt x 134.99037pt.
  [11
 
  <./Example_Sparse_Matrix.png>]
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 185.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 184.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <8> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 185.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 184.
 LaTeX Font Info:    Font shape `OT1/cmss/b/n' in size <6> not available
-(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 185.
+(Font)              Font shape `OT1/cmss/bx/n' tried instead on input line 184.
  [12
 
 ]
 <Case.jpg, id=454, 651.43375pt x 404.51125pt>
 File: Case.jpg Graphic file (type jpg)
 <use Case.jpg>
-Package pdftex.def Info: Case.jpg  used on input line 200.
+Package pdftex.def Info: Case.jpg  used on input line 198.
 (pdftex.def)             Requested size: 171.14804pt x 104.18904pt.
  [13
 
@@ -753,15 +753,15 @@ Package pdftex.def Info: Case.jpg  used on input line 200.
 <1.jpg, id=482, 443.256pt x 343.88475pt>
 File: 1.jpg Graphic file (type jpg)
 <use 1.jpg>
-Package pdftex.def Info: 1.jpg  used on input line 216.
+Package pdftex.def Info: 1.jpg  used on input line 214.
 (pdftex.def)             Requested size: 154.03183pt x 119.50092pt.
 <2.jpg, id=483, 657.05475pt x 409.53pt>
 File: 2.jpg Graphic file (type jpg)
 <use 2.jpg>
-Package pdftex.def Info: 2.jpg  used on input line 216.
+Package pdftex.def Info: 2.jpg  used on input line 214.
 (pdftex.def)             Requested size: 154.03183pt x 96.00209pt.
 
-Overfull \hbox (7.1306pt too wide) in paragraph at lines 216--216
+Overfull \hbox (7.1306pt too wide) in paragraph at lines 214--214
  [] 
  []
 
@@ -771,12 +771,12 @@ Overfull \hbox (7.1306pt too wide) in paragraph at lines 216--216
 <3.png, id=511, 1004.553pt x 740.7675pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 234.
+Package pdftex.def Info: 3.png  used on input line 232.
 (pdftex.def)             Requested size: 171.14764pt x 126.20007pt.
 <Tree graph.jpg, id=512, 268.6035pt x 399.29175pt>
 File: Tree graph.jpg Graphic file (type jpg)
 <use Tree graph.jpg>
-Package pdftex.def Info: Tree graph.jpg  used on input line 234.
+Package pdftex.def Info: Tree graph.jpg  used on input line 232.
 (pdftex.def)             Requested size: 171.15152pt x 156.28976pt.
  [15
 
@@ -787,7 +787,7 @@ Package pdftex.def Info: Tree graph.jpg  used on input line 234.
 ]
 File: amirkabir.png Graphic file (type png)
 <use amirkabir.png>
-Package pdftex.def Info: amirkabir.png  used on input line 265.
+Package pdftex.def Info: amirkabir.png  used on input line 263.
 (pdftex.def)             Requested size: 68.45801pt x 60.9784pt.
  [18
 
@@ -818,7 +818,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,569b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Report_Beamer.pdf (18 pages, 648069 bytes).
+Output written on Report_Beamer.pdf (18 pages, 647962 bytes).
 PDF statistics:
  685 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
